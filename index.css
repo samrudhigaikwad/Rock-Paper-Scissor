@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+h1{ text-align: center;
+    width: 100%;
+    padding: 4px;
+    background-size: 100% 100%;
+background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+background-image: repeating-linear-gradient(315deg, #00FFFF2E 92%, #073AFF00 100%),repeating-radial-gradient(75% 75% at 238% 218%, #00FFFF12 30%, #073AFF14 39%),radial-gradient(99% 99% at 109% 2%, #00C9FFFF 0%, #073AFF00 100%),radial-gradient(99% 99% at 21% 78%, #7B00FFFF 0%, #073AFF00 100%),radial-gradient(160% 154% at 711px -303px, #2000FFFF 0%, #073AFFFF 100%);
+}
+.choices{
+    margin: 15px;
+    height: 50vh;
+    border-radius: 60%;
+    width: 150vh;
+    border:solid 4px rgb(8, 21, 75) ;
+    display: flex;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    background-size: 100% 100%;
+background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+background-image: repeating-linear-gradient(315deg, #00FFFF2E 92%, #073AFF00 100%),repeating-radial-gradient(75% 75% at 238% 218%, #00FFFF12 30%, #073AFF14 39%),radial-gradient(99% 99% at 109% 2%, #00C9FFFF 0%, #073AFF00 100%),radial-gradient(99% 99% at 21% 78%, #7B00FFFF 0%, #073AFF00 100%),radial-gradient(160% 154% at 711px -303px, #2000FFFF 0%, #073AFFFF 100%);
+}
+.choice{
+    background-size: cover;
+    height: 20vh;
+    width: 20vh;
+    margin: 20px;
+    border-style: dashed;
+    border-color: rgb(19, 19, 191);
+    display: inline-flex;
+    justify-content:space-between;
+    position:relative;
+    top: 50px;
+    
+}
+.score-board{
+    height: 20vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.score{
+    height: 20vh;
+    width: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: rgb(86, 117, 186);
+    border:solid 2px rgba(25, 0, 17, 0.53);
+    margin: 20px;
+    border-radius:50% ;
+    background-size: 100% 100%;
+    box-shadow: 10px 10px 20px blue;
+    background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+    background-image: repeating-linear-gradient(315deg, #ff00002e 92%, #ff070700 100%),repeating-radial-gradient(75% 75% at 238% 218%, #00FFFF12 30%, #eff1f914 39%),radial-gradient(99% 99% at 109% 2%, #00C9FFFF 0%, #073AFF00 100%),radial-gradient(99% 99% at 21% 78%, #7B00FFFF 0%, #073AFF00 100%),radial-gradient(160% 154% at 711px -303px, #2000FFFF 0%, #073AFFFF 100%);
+    
+}
+#msg{
+    margin-bottom: 20px;
+    height: 2vh;
+    display: flex;
+    padding: 10px;
+    font-weight:bolder;
+    font-size:larger;
+    text-shadow:10px 10px 20px black;
+
+      
+    
+}
+.choice:hover{
+    border: dashed 15px rgb(0, 4, 255);
+}
